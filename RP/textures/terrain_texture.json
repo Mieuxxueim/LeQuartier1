@@ -1,0 +1,23 @@
+{
+	"num_mip_levels": 4,
+	"padding": 8,
+	"resource_pack_name": "LQLAST",
+	"texture_name": "atlas.terrain",
+	"texture_data": {
+		"l_labo": {
+			"textures": "textures/blocks/labo"
+		},
+		"l_vbuck_ore": {
+			"textures": "textures/blocks/ore_vbuck"
+		},
+		"l_talmoislam": {
+			"textures": "textures/blocks/talmoislam"
+		},
+		"l_cuisine": {
+			"textures": "textures/blocks/cuisine"
+		},
+		"l_terreau": {
+			"textures": "textures/blocks/terreau"
+		}
+	}
+}

@@ -1,0 +1,29 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "l:coke"
+        },
+        "tags": [
+            "labo"
+        ],
+        "ingredients": [
+            {
+                "item": "l:poudre",
+                "count": 1
+            },
+            {
+                "item": "l:plancoke",
+                "count": 1
+            },
+            {
+                "item": "l:terreau",
+                "count": 1
+            }
+        ],
+        "result": {
+            "item": "l:coke",
+            "count": 2
+        }
+    }
+}

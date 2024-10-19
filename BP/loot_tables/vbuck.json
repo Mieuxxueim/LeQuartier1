@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "match_tool",
+                    "item": "l:piochefortnite",
+                    "count": 1
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "l:vbuck"
+                }
+            ]
+        }
+    ]
+}

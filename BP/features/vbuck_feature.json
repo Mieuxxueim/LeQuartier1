@@ -1,0 +1,21 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "l:vbuck_feature"
+		},
+		"count": 9,
+		"replace_rules": [
+			{
+				"places_block": {
+					"name": "l:vbuck_ore"
+				},
+				"may_replace": [
+					{
+						"name": "minecraft:end_stone"
+					}
+				]
+			}
+		]
+	}
+}

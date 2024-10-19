@@ -1,0 +1,25 @@
+{
+	"format_version": [
+		1,
+		1,
+		0
+	],
+	"l:labo": {
+		"sound": "stone"
+	},
+	"l:vbuck_ore": {
+		"sound": "stone",
+		"textures": "l_vbuck_ore"
+	},
+	"l:talmoislam": {
+		"sound": "stone",
+		"textures": "l_talmoislam"
+	},
+	"l:cuisine": {
+		"sound": "stone",
+		"textures": "l_cuisine"
+	},
+	"l:terreau": {
+		"sound": "stone"
+	}
+}

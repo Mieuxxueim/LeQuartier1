@@ -1,0 +1,189 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "l:paul",
+			"materials": {
+				"default": "skeleton"
+			},
+			"textures": {
+				"default": "textures/entity/paul"
+			},
+			"geometry": {
+				"default": "geometry.skeleton.v1.8"
+			},
+			"spawn_egg": {
+				"base_color": "#000000",
+				"overlay_color": "#FFFFFF"
+			},
+			"scripts": {
+				"pre_animation": [
+					"variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;",
+					"variable.tcos1 = -variable.tcos0;",
+					"variable.attack_body_rot_y = Math.sin(Math.sqrt(variable.attack_time) * 360.0) * 11.46;",
+					"variable.cos_attack_body_rot_y = Math.cos(variable.attack_body_rot_y);",
+					"variable.sin_attack_body_rot_y = Math.sin(variable.attack_body_rot_y);",
+					"variable.internal_swim_pos = Math.mod(query.modified_distance_moved, 26.0);",
+					"variable.attack = Math.sin((1.0 - (1.0 - variable.attack_time) * (1.0 - variable.attack_time)) * 180.0) * 57.3;",
+					"variable.attack2 = Math.sin(variable.attack_time * 180.0) * 57.3;",
+					"variable.z_bob = Math.cos(query.life_time * 103.13244) * 2.865 + 2.865;",
+					"variable.x_bob = Math.sin(query.life_time * 76.776372) * 2.865;"
+				]
+			},
+			"animations": {
+				"humanoid_big_head": "animation.humanoid.big_head",
+				"look_at_target_default": "animation.humanoid.look_at_target.default",
+				"look_at_target_gliding": "animation.humanoid.look_at_target.gliding",
+				"look_at_target_swimming": "animation.humanoid.look_at_target.swimming",
+				"move": "animation.humanoid.move",
+				"riding.arms": "animation.humanoid.riding.arms",
+				"riding.legs": "animation.humanoid.riding.legs",
+				"holding": "animation.humanoid.holding",
+				"brandish_spear": "animation.humanoid.brandish_spear",
+				"charging": "animation.humanoid.charging",
+				"attack.rotations": "animation.humanoid.attack.rotations",
+				"sneaking": "animation.humanoid.sneaking",
+				"bob": "animation.humanoid.bob",
+				"damage_nearby_mobs": "animation.humanoid.damage_nearby_mobs",
+				"bow_and_arrow": "animation.humanoid.bow_and_arrow",
+				"swimming": "animation.humanoid.swimming",
+				"use_item_progress": "animation.humanoid.use_item_progress",
+				"skeleton_attack_bare_hand": "animation.skeleton.attack_bare_hand",
+				"skeleton_swimming": "animation.skeleton.swimming"
+			},
+			"animation_controllers": [
+				{
+					"humanoid_baby_big_head": "controller.animation.humanoid.baby_big_head"
+				},
+				{
+					"look_at_target": "controller.animation.humanoid.look_at_target"
+				},
+				{
+					"move": "controller.animation.humanoid.move"
+				},
+				{
+					"riding": "controller.animation.humanoid.riding"
+				},
+				{
+					"holding": "controller.animation.humanoid.holding"
+				},
+				{
+					"brandish_spear": "controller.animation.humanoid.brandish_spear"
+				},
+				{
+					"charging": "controller.animation.humanoid.charging"
+				},
+				{
+					"attack": "controller.animation.humanoid.attack"
+				},
+				{
+					"sneaking": "controller.animation.humanoid.sneaking"
+				},
+				{
+					"bob": "controller.animation.humanoid.bob"
+				},
+				{
+					"damage_nearby_mobs": "controller.animation.humanoid.damage_nearby_mobs"
+				},
+				{
+					"bow_and_arrow": "controller.animation.humanoid.bow_and_arrow"
+				},
+				{
+					"swimming": "controller.animation.humanoid.swimming"
+				},
+				{
+					"use_item_progress": "controller.animation.humanoid.use_item_progress"
+				},
+				{
+					"skeleton_attack_bare_hand": "controller.animation.skeleton.attack_bare_hand"
+				},
+				{
+					"skeleton_swimming": "controller.animation.skeleton.swimming"
+				}
+			],
+			"render_controllers": ["controller.render.skeleton"],
+			"enable_attachables": true
+		}
+	},
+	"geometry.paul": {
+		"texturewidth": 64,
+		"textureheight": 64,
+		"visible_bounds_width": 2,
+		"visible_bounds_height": 3,
+		"visible_bounds_offset": [0, 1.5, 0],
+		"bones": [
+			{
+				"name": "waist",
+				"pivot": [0, 12, 0]
+			},
+			{
+				"name": "body",
+				"parent": "waist",
+				"pivot": [0, 24, 0],
+				"cubes": [
+					{"origin": [-4, 12, -2], "size": [8, 12, 4], "uv": [28, 28]}
+				]
+			},
+			{
+				"name": "head",
+				"parent": "body",
+				"pivot": [0, 24, 0],
+				"cubes": [
+					{"origin": [-4, 24, -4], "size": [8, 8, 8], "uv": [0, 16]}
+				]
+			},
+			{
+				"name": "hat",
+				"parent": "head",
+				"pivot": [0, 24, 0],
+				"cubes": [
+					{"origin": [-4, 24, -4], "size": [8, 8, 8], "uv": [0, 0], "inflate": 0.5}
+				]
+			},
+			{
+				"name": "rightArm",
+				"parent": "body",
+				"pivot": [-5, 22, 0],
+				"cubes": [
+					{"origin": [-6, 12, -1], "size": [2, 12, 2], "uv": [32, 14]}
+				]
+			},
+			{
+				"name": "rightItem",
+				"parent": "rightArm",
+				"pivot": [-6, 15, 1]
+			},
+			{
+				"name": "leftArm",
+				"parent": "body",
+				"pivot": [5, 22, 0],
+				"mirror": true,
+				"cubes": [
+					{"origin": [4, 12, -1], "size": [2, 12, 2], "uv": [8, 32], "mirror": false}
+				]
+			},
+			{
+				"name": "leftItem",
+				"parent": "leftArm",
+				"pivot": [6, 15, 1]
+			},
+			{
+				"name": "rightLeg",
+				"parent": "body",
+				"pivot": [-2, 12, 0],
+				"cubes": [
+					{"origin": [-3, 0, -1], "size": [2, 12, 2], "uv": [32, 0]}
+				]
+			},
+			{
+				"name": "leftLeg",
+				"parent": "body",
+				"pivot": [2, 12, 0],
+				"mirror": true,
+				"cubes": [
+					{"origin": [1, 0, -1], "size": [2, 12, 2], "uv": [0, 32], "mirror": false}
+				]
+			}
+		]
+	}
+}

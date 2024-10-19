@@ -1,0 +1,44 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "l:test",
+			"materials": {
+				"default": "villager"
+			},
+			"textures": {
+				"default": "textures/entity/test"
+			},
+			"geometry": {
+				"default": "geometry.test"
+			},
+			"scripts": {
+				"scale": 1
+			},
+			"animations": {
+				"general": "animation.test.general",
+				"look_at_target": "animation.common.look_at_target",
+				"raise_arms": "animation.test.raise_arms",
+				"move": "animation.test.move"
+			},
+			"animation_controllers": [
+				{
+					"general": "controller.animation.test.general"
+				},
+				{
+					"raise_arms": "controller.animation.test_v2.raise_arms"
+				},
+				{
+					"move": "controller.animation.test.move"
+				}
+			],
+			"render_controllers": [
+				"controller.render.test"
+			],
+			"spawn_egg": {
+				"base_color": "#000000",
+				"overlay_color": "#FFFFFF"
+			}
+		}
+	}
+}

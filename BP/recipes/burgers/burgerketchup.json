@@ -1,0 +1,25 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "l:burgerketchup"
+		},
+		"tags": [
+			"cuisine"
+		],
+		"ingredients": [
+			{
+				"item": "l:burger",
+				"count": 1
+			},
+			{
+				"item": "l:ketchup",
+				"count": 1
+			}
+		],
+		"result": {
+			"item": "l:burgerketchup",
+			"count": 1
+		}
+	}
+}

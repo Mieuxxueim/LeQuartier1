@@ -1,0 +1,142 @@
+{
+	"tiers": [
+		{
+			"groups": [
+				{
+					"num_to_select": 0,
+					"trades": [
+						{
+							"max_uses": -1,
+							"wants": [
+								{
+									"item": "l:vbuck",
+									"quantity": 32
+								}
+							],
+							"gives": [
+								{
+									"item": "l:ketchup"
+								}
+							]
+						},
+						{
+							"max_uses": -1,
+							"wants": [
+								{
+									"item": "l:vbuck",
+									"quantity": 32
+								}
+							],
+							"gives": [
+								{
+									"item": "l:mayo"
+								}
+							]
+						},
+						// LOOTBOSS
+						{
+							"max_uses": -1,
+							"wants": [
+								{
+									"item": "l:chemise"
+								}
+							],
+							"gives": [
+								{
+									"item": "l:vbuck",
+									"quantity": 32
+								}
+							]
+						},
+						{
+							"max_uses": -1,
+							"wants": [
+								{
+									"item": "l:chaussure"
+								}
+							],
+							"gives": [
+								{
+									"item": "l:vbuck",
+									"quantity": 32
+								}
+							]
+						},
+						{
+							"max_uses": -1,
+							"wants": [
+								{
+									"item": "l:congo"
+								}
+							],
+							"gives": [
+								{
+									"item": "l:vbuck",
+									"quantity": 32
+								}
+							]
+						},
+						{
+							"max_uses": -1,
+							"wants": [
+								{
+									"item": "l:degrade"
+								}
+							],
+							"gives": [
+								{
+									"item": "l:vbuck",
+									"quantity": 32
+								}
+							]
+						},
+						{
+							"max_uses": -1,
+							"wants": [
+								{
+									"item": "l:capotes"
+								}
+							],
+							"gives": [
+								{
+									"item": "l:fauxvbouck",
+									"quantity": 64
+								}
+							]
+						},
+						{
+							"max_uses": -1,
+							"wants": [
+								{
+									"item": "minecraft:diamond",
+									"quantity": 10
+								}
+							],
+							"gives": [
+								{
+									"item": "l:talmo_spawn_egg",
+									"quantity": 2
+								}
+							]
+						},
+						{
+							"max_uses": -1,
+							"wants": [
+								{
+									"item": "minecraft:diamond",
+									"quantity": 10
+								}
+							],
+							"gives": [
+								{
+									"item": "l:baraka_spawn_egg",
+									"quantity": 2
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

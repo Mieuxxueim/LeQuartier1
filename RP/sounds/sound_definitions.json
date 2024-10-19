@@ -1,0 +1,213 @@
+{
+	"format_version": "1.14.0",
+	"sound_definitions": {
+		"mob.lou.death": {
+			"__use_legacy_max_distance": "true",
+			"category": "hostile",
+			"sounds": [
+				"sounds/mob/irongolem/death"
+			]
+		},
+		"mob.lou.hit": {
+			"__use_legacy_max_distance": "true",
+			"category": "hostile",
+			"sounds": [
+				"sounds/mob/irongolem/hit1",
+				"sounds/mob/irongolem/hit2",
+				"sounds/mob/irongolem/hit3",
+				"sounds/mob/irongolem/hit4"
+			]
+		},
+		"mob.lou.throw": {
+			"__use_legacy_max_distance": "true",
+			"category": "hostile",
+			"sounds": [
+				"sounds/mob/irongolem/throw"
+			]
+		},
+		"mob.lou.walk": {
+			"__use_legacy_max_distance": "true",
+			"category": "hostile",
+			"sounds": [
+				"sounds/mob/irongolem/walk1",
+				"sounds/mob/irongolem/walk2",
+				"sounds/mob/irongolem/walk3",
+				"sounds/mob/irongolem/walk4"
+			]
+		},
+		"mob.baraka.death": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/villager/death"
+			]
+		},
+		"mob.baraka.haggle": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/villager/haggle1",
+				"sounds/mob/villager/haggle2",
+				"sounds/mob/villager/haggle3"
+			]
+		},
+		"mob.baraka.hit": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/villager/hit1",
+				"sounds/mob/villager/hit2",
+				"sounds/mob/villager/hit3",
+				"sounds/mob/villager/hit4"
+			]
+		},
+		"mob.baraka.idle": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/villager/idle1",
+				"sounds/mob/villager/idle2",
+				"sounds/mob/villager/idle3"
+			]
+		},
+		"mob.baraka.no": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/villager/no1",
+				"sounds/mob/villager/no2",
+				"sounds/mob/villager/no3"
+			]
+		},
+		"mob.baraka.yes": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/villager/yes1",
+				"sounds/mob/villager/yes2",
+				"sounds/mob/villager/yes3"
+			]
+		},
+		"mob.talmo.death": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/villager/death"
+			]
+		},
+		"mob.talmo.haggle": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/villager/haggle1",
+				"sounds/mob/villager/haggle2",
+				"sounds/mob/villager/haggle3"
+			]
+		},
+		"mob.talmo.hit": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/villager/hit1",
+				"sounds/mob/villager/hit2",
+				"sounds/mob/villager/hit3",
+				"sounds/mob/villager/hit4"
+			]
+		},
+		"mob.talmo.idle": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/villager/idle1",
+				"sounds/mob/villager/idle2",
+				"sounds/mob/villager/idle3"
+			]
+		},
+		"mob.talmo.no": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/villager/no1",
+				"sounds/mob/villager/no2",
+				"sounds/mob/villager/no3"
+			]
+		},
+		"mob.talmo.yes": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/villager/yes1",
+				"sounds/mob/villager/yes2",
+				"sounds/mob/villager/yes3"
+			]
+		},
+		"mob.sajed.death": {
+			"__use_legacy_max_distance": "true",
+			"category": "hostile",
+			"sounds": [
+				"sounds/mob/spider/death"
+			]
+		},
+		"mob.sajed.say": {
+			"__use_legacy_max_distance": "true",
+			"category": "hostile",
+			"sounds": [
+				"sounds/mob/spider/say1",
+				"sounds/mob/spider/say2",
+				"sounds/mob/spider/say3",
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/mob/spider/say4"
+				}
+			]
+		},
+		"mob.sajed.step": {
+			"__use_legacy_max_distance": "true",
+			"category": "hostile",
+			"sounds": [
+				{
+					"load_on_low_memory": true,
+					"name": "sounds/mob/spider/step1"
+				},
+				"sounds/mob/spider/step2",
+				"sounds/mob/spider/step3",
+				"sounds/mob/spider/step4"
+			]
+		},
+		"mob.test.death": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/villager/death"
+			]
+		},
+		"mob.test.haggle": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/villager/haggle1",
+				"sounds/mob/villager/haggle2",
+				"sounds/mob/villager/haggle3"
+			]
+		},
+		"mob.test.hit": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/villager/hit1",
+				"sounds/mob/villager/hit2",
+				"sounds/mob/villager/hit3",
+				"sounds/mob/villager/hit4"
+			]
+		},
+		"mob.test.idle": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/villager/idle1",
+				"sounds/mob/villager/idle2",
+				"sounds/mob/villager/idle3"
+			]
+		},
+		"mob.test.no": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/villager/no1",
+				"sounds/mob/villager/no2",
+				"sounds/mob/villager/no3"
+			]
+		},
+		"mob.test.yes": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/villager/yes1",
+				"sounds/mob/villager/yes2",
+				"sounds/mob/villager/yes3"
+			]
+		}
+	}
+}

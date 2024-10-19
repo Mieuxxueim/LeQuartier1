@@ -1,0 +1,42 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"mieux"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.37"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	},
+	"header": {
+		"name": "LQLAST",
+		"description": "lqlast",
+		"min_engine_version": [
+			1,
+			20,
+			60
+		],
+		"uuid": "993272d0-cb2c-4862-977b-eb6830b2604f",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "skin_pack",
+			"uuid": "a96bd37d-89cf-415c-8a84-dc8cc97589e7",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

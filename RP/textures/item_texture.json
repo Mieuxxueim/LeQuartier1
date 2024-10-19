@@ -1,0 +1,110 @@
+{
+	"resource_pack_name": "LQLAST",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"l_poudre": {
+			"textures": "textures/items/drugs/poudre"
+		},
+		"l_meth": {
+			"textures": "textures/items/drugs/meth"
+		},
+		"l_crack": {
+			"textures": "textures/items/drugs/crack"
+		},
+		"l_bissap": {
+			"textures": "textures/items/drugs/bissap"
+		},
+		"l_coke": {
+			"textures": "textures/items/drugs/coke"
+		},
+		"l_burger": {
+			"textures": "textures/items/lootboss/burger"
+		},
+		"l_cacabaton": {
+			"textures": "textures/items/lootboss/caca_baton"
+		},
+		"l_mouanda_egg": {
+			"textures": "textures/items/enderman"
+		},
+		"l_plan": {
+			"textures": "textures/items/drugs/plan/Plan"
+		},
+		"l_capotes": {
+			"textures": "textures/items/lootboss/capote"
+		},
+		"l_kilyan_egg": {
+			"textures": "textures/items/kilyan"
+		},
+		"egg_paul": {
+			"textures": [
+				"textures/items/egg_paul",
+				"textures/items/egg_paul"
+			]
+		},
+		"l_jawline": {
+			"textures": "textures/items/jawline"
+		},
+		"l_vbuck": {
+			"textures": "textures/items/vbuck"
+		},
+		"l_admintest": {
+			"textures": "textures/items/admintest"
+		},
+		"egg_alexis": {
+			"textures": [
+				"textures/items/egg_alexis"
+			]
+		},
+		"l_burgeralgerien": {
+			"textures": "textures/items/lootboss/burgeralge"
+		},
+		"l_burgerketchup": {
+			"textures": "textures/items/lootboss/burgerketchup"
+		},
+		"l_burgermayo": {
+			"textures": "textures/items/lootboss/burgermayo"
+		},
+		"l_burgerdouteux": {
+			"textures": "textures/items/lootboss/burgerdouteux"
+		},
+		"l_piochefortnite": {
+			"textures": "textures/items/piochefortnite"
+		},
+		"l_c4": {
+			"textures": "textures/items/c4"
+		},
+		"l_ketchup": {
+			"textures": "textures/items/sauces/ketchup"
+		},
+		"l_mayo": {
+			"textures": "textures/items/mayo"
+		},
+		"l_saucealgerienne": {
+			"textures": "textures/items/sauces/saucealgerienne"
+		},
+		"l_chaussure": {
+			"textures": "textures/items/lootboss/chaussure"
+		},
+		"l_jean": {
+			"textures": "textures/items/lootboss/jean"
+		},
+		"l_chemise": {
+			"textures": "textures/items/lootboss/chemise"
+		},
+		"l_degrade": {
+			"textures": "textures/items/lootboss/degrade"
+		},
+		"l_claquette": {
+			"textures": "textures/items/lootboss/claquette"
+		},
+		"jawline": {
+			"textures": "textures/items/jawline"
+		},
+		"l_battlepass": {
+			"textures": "textures/items/battlepass"
+		},
+		"l_congo": {
+			"textures": "textures/items/lootboss/congo"
+		}
+	}
+}

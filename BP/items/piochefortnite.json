@@ -1,0 +1,21 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "l:piochefortnite"
+		},
+		"components": {
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+					{
+						"block": {
+							"tags": "q.any_tag('stone', 'metal','vbuck')" // Note that not all blocks have tags; listing many blocks may be necessary
+						},
+						"speed": 6
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"format_version": "1.19.50",
+	"minecraft:block": {
+		"description": {
+			"identifier": "l:terreau"
+		},
+		"components": {
+			"minecraft:geometry": "geometry.terreau",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "l_terreau",
+					"render_method": "alpha_test"
+				}
+			}
+		}
+	}
+}

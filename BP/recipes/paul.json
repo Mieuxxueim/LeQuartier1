@@ -1,0 +1,21 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "l:paul"
+        },
+        "tags": [
+            "labo"
+        ],
+        "ingredients": [
+            {
+                "item": "l:crack",
+                "count": 9
+            }
+        ],
+        "result": {
+            "item": "l:paul_spawn_egg",
+            "count": 1
+        }
+    }
+}

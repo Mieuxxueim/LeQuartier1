@@ -1,0 +1,13 @@
+{
+	"geometry": "skinpacks/skins.json",
+	"skins": [
+		{
+			"localization_name": "test",
+			"geometry": "geometry.humanoid.custom",
+			"texture": "test.png",
+			"type": "free"
+		}
+	],
+	"serialize_name": "l",
+	"localization_name": "l"
+}

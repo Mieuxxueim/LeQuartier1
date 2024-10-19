@@ -1,0 +1,125 @@
+{
+	"tiers": [
+		{
+			"groups": [
+				{
+					"num_to_select": 0,
+					"trades": [
+						{
+							"max_uses": -1,
+							"wants": [
+								{
+									"item": "l:vbuck",
+									"quantity": 32
+								}
+							],
+							"gives": [
+								{
+									"item": "l:labo"
+								}
+							]
+						},
+						{
+							"max_uses": -1,
+							"wants": [
+								{
+									"item": "l:battlepass",
+									"quantity": 3
+								}
+							],
+							"gives": [
+								{
+									"item": "l:terreau"
+								}
+							]
+						},
+						{
+							"max_uses": -1,
+							"wants": [
+								{
+									"item": "l:vbuck",
+									"quantity": 64
+								}
+							],
+							"gives": [
+								{
+									"item": "l:planbissap"
+								}
+							]
+						},
+						{
+							"max_uses": -1,
+							"wants": [
+								{
+									"item": "l:vbuck",
+									"quantity": 64
+								}
+							],
+							"gives": [
+								{
+									"item": "l:planbissap"
+								}
+							]
+						},
+						{
+							"max_uses": -1,
+							"wants": [
+								{
+									"item": "l:vbuck",
+									"quantity": 64
+								}
+							],
+							"gives": [
+								{
+									"item": "l:plancoke"
+								}
+							]
+						},
+						{
+							"max_uses": -1,
+							"wants": [
+								{
+									"item": "l:vbuck",
+									"quantity": 64
+								}
+							],
+							"gives": [
+								{
+									"item": "l:plancrack"
+								}
+							]
+						},
+						{
+							"max_uses": -1,
+							"wants": [
+								{
+									"item": "l:vbuck",
+									"quantity": 64
+								}
+							],
+							"gives": [
+								{
+									"item": "l:planmeth"
+								}
+							]
+						},
+						{
+							"max_uses": -1,
+							"wants": [
+								{
+									"item": "l:vbuck",
+									"quantity": 64
+								}
+							],
+							"gives": [
+								{
+									"item": "l:battlepass"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

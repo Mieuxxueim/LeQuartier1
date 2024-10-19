@@ -1,0 +1,136 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"l:lou": {
+				"volume": 0.1,
+				"pitch": [
+					0.76,
+					1.14
+				],
+				"events": {
+					"ambient": "mob.lou.idle",
+					"hurt": "mob.lou.hurt",
+					"death": "mob.lou.death",
+					"takeoff": {
+						"sound": "mob.lou.takeoff",
+						"volume": 0.05,
+						"pitch": [
+							0.8,
+							1.2
+						]
+					}
+				}
+			},
+			"l:paul": {
+				"events": {
+					"ambient": "mob.skeleton.say",
+					"death": "mob.skeleton.death",
+					"hurt": {
+						"sound": "mob.skeleton.hurt",
+						"volume": 0.7
+					},
+					"step": {
+						"pitch": 1,
+						"sound": "mob.skeleton.step",
+						"volume": 1
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2,
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"l:baraka": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.baraka.idle",
+					"hurt": "mob.baraka.hit",
+					"death": "mob.baraka.death",
+					"death.to.zombie": "mob.baraka.death",
+					"haggle": "mob.baraka.haggle",
+					"haggle.yes": "mob.baraka.yes",
+					"haggle.no": "mob.baraka.no"
+				}
+			},
+			"l:alexis": {
+				"events": {
+					"ambient": "mob.skeleton.say",
+					"death": "mob.skeleton.death",
+					"hurt": {
+						"sound": "mob.skeleton.hurt",
+						"volume": 0.7
+					},
+					"step": {
+						"pitch": 1,
+						"sound": "mob.skeleton.step",
+						"volume": 1
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"l:talmo": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.talmo.idle",
+					"hurt": "mob.talmo.hit",
+					"death": "mob.talmo.death",
+					"death.to.zombie": "mob.talmo.death",
+					"haggle": "mob.talmo.haggle",
+					"haggle.yes": "mob.talmo.yes",
+					"haggle.no": "mob.talmo.no"
+				}
+			},
+			"l:sajed": {
+				"events": {
+					"ambient": "mob.sajed.say",
+					"death": "mob.sajed.death",
+					"hurt": "mob.sajed.say",
+					"step": {
+						"pitch": [
+							0.9,
+							1.1
+						],
+						"sound": "mob.sajed.step",
+						"volume": 0.35
+					}
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"l:test": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.test.idle",
+					"hurt": "mob.test.hit",
+					"death": "mob.test.death",
+					"death.to.zombie": "mob.test.death",
+					"haggle": "mob.test.haggle",
+					"haggle.yes": "mob.test.yes",
+					"haggle.no": "mob.test.no"
+				}
+			}
+		}
+	}
+}

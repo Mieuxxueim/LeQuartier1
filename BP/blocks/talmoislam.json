@@ -1,0 +1,17 @@
+{
+	"format_version": "1.19.50",
+	"minecraft:block": {
+		"description": {
+			"identifier": "l:talmoislam"
+		},
+		"components": {
+			"minecraft:geometry": "geometry.talmoislam",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "l_talmoislam",
+					"render_method": "alpha_test"
+				}
+			}
+		}
+	}
+}
